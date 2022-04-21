@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body style="text-align: center;">
+        <p>Z1: </p>
+        <form action="">
+            <input type="number" placeholder="realni dio" id="prvi_broj_realni">
+            <input type="number" placeholder="imaginarni dio" id="prvi_broj_imaginarni"> i
+
+            <br/>
+
+            <p>Z2: </p>
+            <input type="number" placeholder="realni dio" id="drugi_broj_realni">
+            <input type="number" placeholder="imaginarni dio" id="drugi_broj_imaginarni"> i
+
+            <br/>
+            <hr style="border: 2px solid grey;">
+            <br>
+
+            <select id="odabir_operacije" name="odabir_operacije">
+            <option value="" disabled selected hidden>Odaberite operaciju</option>
+            <option value="Zbrajanje">Zbrajanje</option>
+            <option value="Mnozenje">Mnozenje</option>
+          </select>
+
+          <br>
+          <br>
+          <hr style="border: 2px solid grey;">
+          <br>
+          <br>
+          <label for="realni_dio">Realni dio:</label>
+          <input type="text" id="realni_dio" name="realni_dio">
+          <br/>
+          <label for="imaginarni_dio" style="margin-left: -29px;">Imaginarni dio:</label>
+          <input type="text" id="imaginarni_dio" name="imaginarni_dio">
+          <br>
+          <br>
+          Rezultat:
+          <input type="text" id="rezultat">
+        </form>
+
+        <script src="kompleksniBroj.js"></script>
+
+    </body>
+
+</html>
